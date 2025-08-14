@@ -2,83 +2,65 @@ using System;
 
 
 
-public class HelloWorld
-
-
+class Program
 
 {
 
+&nbsp;   static void Main()
 
+&nbsp;   {
 
-int edad = 40;
+&nbsp;       
 
+&nbsp;       int edad = 40; 
 
+&nbsp;       string nombre = "Alberto"; 
 
-string nombre "Alberto";
-
-bool tieneLicencia = true;
-
-
-
-if (edad >=18)
-
-{
+&nbsp;       bool tieneLicencia = true; 
 
 
 
-(nombre + "puede conducir");
+&nbsp;       
+
+&nbsp;       if (edad >= 18)
+
+&nbsp;       {
+
+&nbsp;           Console.WriteLine(nombre + " puede conducir");
+
+&nbsp;       }
+
+&nbsp;       else
+
+&nbsp;       {
+
+&nbsp;           Console.WriteLine(nombre + " es menor de edad");
+
+&nbsp;       }
 
 
+
+&nbsp;       // Condición para la licencia
+
+&nbsp;       if (tieneLicencia)
+
+&nbsp;       {
+
+&nbsp;           Console.WriteLine(nombre + " tiene licencia");
+
+&nbsp;       }
+
+&nbsp;       else
+
+&nbsp;       {
+
+&nbsp;           Console.WriteLine(nombre + " no tiene licencia");
+
+&nbsp;       }
+
+&nbsp;   }
 
 }
 
 
-
-else 
-
-{
-
-
-
-(nombre + "es menor de edad");
-
-
-
-}
-
-
-
-if (tieneLicencia == true)
-
-
-
-{
-
-
-
-(nombre + "tiene Licencia");
-
-
-
-}
-
-
-
-else 
-
-
-
-{
-
-
-
-(nombre + "no tiene Licencia");
-
-
-
-}
-
-
-
-}
 
